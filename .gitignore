@@ -23,7 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
+# Environment files may contain credentials; keep only the example tracked.
 .env
+.env.*
+!.env.example
 .vercel
 coverage
 public/img/portadas
